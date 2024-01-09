@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Lato', sans-serif;
+}
+.main{
+    background: #ADA996;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+min-height: 100vh;
+ padding-top: 20px;
+}
+.container h1{
+    text-align: center;
+    padding: 20px 0;
+    text-transform: uppercase;
+    background-color: #ADA996;
+
+}
+.card{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    min-height: 40%;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding-top: 20px;
+}
+.for-img{
+    min-width: 27%;
+    border-radius: 5px;
+}
+.for-img h5{
+    text-align: left;
+    margin-left: 5px;
+    padding: 6px 0;
+}
+.for-img p{
+    margin-left: 5px;
+    padding-bottom: 6px;
+}
+.Galaxy{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 450px;
+    border: 1px solid saddlebrown;
+    outline: none;
+    border-radius: 10px;
+
+}
+.Galaxy img{
+    width: 100%;
+    border-radius: 10px;
+    height: 200px;
+    object-fit: cover;
+}
